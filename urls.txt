@@ -1,0 +1,5 @@
+http://localhost:8080/cryptocurrency/generateCryptocurrencies
+http://localhost:8080/cryptocurrency/getAllCryptocurrencies
+http://localhost:8080/cryptocurrency/getAllHistoricalData/BTCUSD
+
+http://localhost:8080/swagger-ui.html#/

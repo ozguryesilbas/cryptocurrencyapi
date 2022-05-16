@@ -1,12 +1,12 @@
----
 apiVersion: v1
 kind: Pod
 metadata:
-  name: debug-network-pod
+  name: cryptocurrencyapi
+  labels:
+    name: cryptocurrencyapi
 spec:
   containers:
-    - command:
-        - sleep
-        - "3600"
-      image: praqma/network-multitool
-      name: debug-network-container
+    - name: cryptocurrencyapi
+      image: ozguryesilbas/cryptocurrency:latest
+      ports:
+        - containerPort: 8080

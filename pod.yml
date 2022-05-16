@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: cryptocurrency-pod
+  labels:
+    name: cryptocurrency-pod
+spec:
+  containers:
+    - image: ozguryesilbas/cryptocurrency:latest
+      name: cryptocurrency-pod
+      ports:
+        - containerPort: 8080

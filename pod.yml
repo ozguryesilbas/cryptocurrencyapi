@@ -7,6 +7,6 @@ metadata:
 spec:
   containers:
     - name: cryptocurrency-pod
-      image: ozguryesilbas/cryptocurrency
+      image: ozguryesilbas/cryptocurrency:latest
       ports:
         - containerPort: 8080

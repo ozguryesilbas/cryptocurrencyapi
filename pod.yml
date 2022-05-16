@@ -1,12 +1,12 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: cryptocurrencyapi
+  name: nginx
   labels:
-    name: cryptocurrencyapi
+    name: nginx
 spec:
   containers:
-    - name: cryptocurrencyapi
-      image: ozguryesilbas/cryptocurrency
-      ports:
-        - containerPort: 8080
+  - name: nginx
+    image: nginx
+    ports:
+    - containerPort: 80

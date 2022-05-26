@@ -63,6 +63,10 @@ public class MockDataGenerator {
         c3.setAvgVolume(231043);
         c3.setExhange("CRYPTO");
 
+        c1.setCurrencyName("currency 1");
+        c2.setCurrencyName("currency 2");
+        c3.setCurrencyName("currency 3");
+
         cryptocurrencies.add(c1);
         cryptocurrencies.add(c2);
         cryptocurrencies.add(c3);

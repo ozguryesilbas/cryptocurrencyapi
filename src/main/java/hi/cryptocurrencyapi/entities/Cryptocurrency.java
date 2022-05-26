@@ -26,6 +26,7 @@ public class Cryptocurrency extends BaseEntity {
     private Integer volume;
     private Integer avgVolume;
     private String exhange;
+    private String currencyName;
 
     public String getSymbol() {
         return symbol;
@@ -147,5 +148,13 @@ public class Cryptocurrency extends BaseEntity {
 
     public void setExhange(String exhange) {
         this.exhange = exhange;
+    }
+
+    public String getCurrencyName() {
+        return currencyName;
+    }
+
+    public void setCurrencyName(String currencyName) {
+        this.currencyName = currencyName;
     }
 }
